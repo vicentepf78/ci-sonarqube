@@ -1,5 +1,5 @@
 function main() {
-    const result = somar(10,10);
+    const result = somar(10,10);    
     console.log("Vicente : " + result);
 }
 
