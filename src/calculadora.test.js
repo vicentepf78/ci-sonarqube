@@ -14,3 +14,8 @@ test('Aplicar multiplicacao em A * B', () => {
     const result = calculadora.multiplicar(10,2);
     expect(result).toBe(20);
 })
+
+test('Aplicar divisão em A / B', () => {
+    const result = calculadora.dividir(100,5);
+    expect(result).toBe(20);
+})
