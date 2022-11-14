@@ -13,3 +13,4 @@
             node-version: 16
         - run: npm ci
         - run: npm test
+        - run: node src/calculadora.js
