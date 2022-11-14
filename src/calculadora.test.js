@@ -19,3 +19,8 @@ test('Aplicar divisão em A / B', () => {
     const result = calculadora.dividir(100,5);
     expect(result).toBe(20);
 })
+
+test('Testar main', () => {
+    const result = calculadora.main();
+    expect(result).toBe(20);
+})
